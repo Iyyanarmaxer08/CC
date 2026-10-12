@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paws Pet Shop</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8ef;
+      color: #333;
+      text-align: center;
+    }
+
+    header, footer {
+      background: #215c4b;
+      color: white;
+      padding: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 12px;
+    }
+
+    section { padding: 30px 20px; }
+
+    .pets {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      width: 240px;
+      max-width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+    }
+
+    .icon { font-size: 64px; }
+
+    .button {
+      display: inline-block;
+      background: #215c4b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .button:hover { background: #153e32; }
+
+    #contact { background: #e5f0e9; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Happy Paws Pet Shop</h1>
+    <nav>
+      <a href="#pets">Our Pets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Find Your New Best Friend!</h2>
+      <p>Meet our friendly pets and give them a loving home.</p>
+    </section>
+
+    <section id="pets">
+      <h2>Our Pets</h2>
+
+      <div class="pets">
+        <article class="card">
+          <div class="icon" aria-hidden="true">🐶</div>
+          <h3>Dogs</h3>
+          <p>Friendly and playful companions.</p>
+          <a class="button" href="#contact">Enquire</a>
+        </article>
+
+        <article class="card">
+          <div class="icon" aria-hidden="true">🐱</div>
+          <h3>Cats</h3>
+          <p>Curious and lovable friends.</p>
+          <a class="button" href="#contact">Enquire</a>
+        </article>
+
+        <article class="card">
+          <div class="icon" aria-hidden="true">🐰</div>
+          <h3>Rabbits</h3>
+          <p>Gentle pets who need loving care.</p>
+          <a class="button" href="#contact">Enquire</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <!-- Replace with your shop's email address -->
+      <p>Email: hello@example.com</p>
+      <p>Contact us for availability and pet care information.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Happy Paws Pet Shop</p>
+  </footer>
+</body>
+</html>
